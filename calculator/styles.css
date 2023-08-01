@@ -1,0 +1,78 @@
+/* Beautiful CSS styles for the basic calculator */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#display {
+    width: 90%;
+    padding: 20px;
+    font-size: 40px;
+    text-align: right;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+button {
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a048;
+}
+
+button.operator {
+    background-color: #f57c00;
+}
+
+button.operator:hover {
+    background-color: #ef6c00;
+}
+
+button.equal {
+    background-color: #e53935;
+}
+
+button.equal:hover {
+    background-color: #d32f2f;
+}
+
+button.clear {
+    background-color: #c62828;
+}
+
+button.clear:hover {
+    background-color: #b71c1c;
+}
