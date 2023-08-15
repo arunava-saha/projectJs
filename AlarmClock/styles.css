@@ -1,0 +1,107 @@
+body {
+    font-family: cursive;
+    background-color: #f909f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.alarm-clock {
+    background-color: #42ffff;
+    box-shadow: 3px 8px 13px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.time-display {
+    display: flex;
+    justify-content: space-between;
+    color: #4caf50;
+}
+
+#currentTime {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.alarm-form input,
+.alarm-form button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.alarm-form button {
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.alarm-form button:hover {
+    background-color: #45a048;
+}
+
+.alarms {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#alarmList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.alarm-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #00d;
+}
+
+.alarm-item:last-child {
+    border-bottom: none;
+}
+
+.alarm-time {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.alarm-actions {
+    display: flex;
+    align-items: center;
+}
+
+.remove-button {
+    margin-left: 10px;
+    background-color: #e00011;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+    background-color: #d28e87;
+}
